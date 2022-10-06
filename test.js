@@ -2,6 +2,7 @@
 const docPrincial=require('./TrianguloJS.js');
 
 // casos de prueba del area de un triangulo 
+
 // 1.ingresar valores positivos o diferentes de 0 
 test("'ingrese un valor positivo o diferente de 0  ", () => {
     expect(funcionTipodeltriangulo(3,5,0));
