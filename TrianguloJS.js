@@ -60,14 +60,15 @@ funcionTipo=(a,b,c)=>{
 
 funCalcularEqulatero=(a,b,c)=>{
   res=(a*b)/2
-  console.log('respeuestaaa');
-  console.log(res);
+  console.log('El area Es :');
+  console.log(res.toFixed(2));
 }
 funIsoceles=(a,b,c)=>{
   // h = √a2 – (b2/4)
   var h=Math.sqrt((a*a)- ((b*b)/4))
   
   res=(a*h)/2
+  console.log('El area Es :');
   console.log(res.toFixed(2));
 }
 
@@ -76,7 +77,7 @@ funEscaleno=(a,b,c)=>{
   //           2
   var sp=((a+b+c)/2)
   res=Math.sqrt(sp*(sp-a)*(sp-b)*(sp-c))
-  
+  console.log('El area Es :');
   console.log(res.toFixed(2));
 }
 // 
@@ -102,9 +103,9 @@ funcionTipodeltriangulo=(a,b,c)=>{
 	    console.log('dato invalido')
       return 
    }
-    console.log(aCorrect);
-    console.log(bCorrect);
-    console.log(cCorrect);
+    // console.log(aCorrect);
+    // console.log(bCorrect);
+    // console.log(cCorrect);
    // 
  }catch(error){
   	console.log('error del proceso');
@@ -113,6 +114,6 @@ funcionTipodeltriangulo=(a,b,c)=>{
   
 }
 
-funcionTipodeltriangulo(3,4,5);
+// funcionTipodeltriangulo(3,4,5);
 
-// 
+// // 
