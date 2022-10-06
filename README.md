@@ -1,5 +1,5 @@
 # VERIFICACION Y VALIDACION DE SOFTWARE 
-## Resolucion de determiinar el topo y area de un trinagulo conociendo sus lados 
+## Resolucion de determiinar el topo y area de un triangulo conociendo sus lados 
 Codigo : EjercicioPolinomio.js
 
 Matriz : pdf adjunto 
